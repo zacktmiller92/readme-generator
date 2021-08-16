@@ -1,45 +1,48 @@
-# Professional Readme Generator
+# 
 
 ## Description
-This project is designed to create professional readmefiles and format them using the command line interface.
+
 
 ## Table Of Contents
 * [Install Instructions](#Install-Instructions)
 * [Usage Instructions](#Usage-Instructions)
+* [How To Contribute](#How-To-Contribute)
+* [Test Guidelines](#Test-Guidelines)
 * [Credits](#Credits)
 * [Questions](#Questions)
 * [License](#License)
 
-
 ## Install Instructions
-1. Clone this project
-2. Install the latest stable version of Node if you haven't already
-3. Navigate to root directory of project
-4. Run 'node install' to install all required packages
+
 
 
 ## Usage Instructions
-1. Navigate to root directory of project
-2. Run 'node index'
-3. Answer the questions
-4. Check the dist folder for your generated readme.md file
+
+
+
+## How To Contribute
+
+
+
+## Test Guidelines
 
 
 
 ## Credits
-Created by Zack Miller at Rutgers Coding Bootcamp
+
 
 
 ## Questions
-For questions please contact Zack Miller
-https://www.github.com/zacktmiller92
+For questions please contact :
+https://www.github.com/
 
-email: zacktmiller92@gmail.com
+email: 
 
 
 ## License
 
-Copyright 2021 Zack Miller
+
+Copyright 2021 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
