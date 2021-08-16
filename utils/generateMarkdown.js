@@ -95,7 +95,7 @@ const generateLicense = (data) => {
 
 function generateMarkdown(data) {
 
-  return `# ${data.title}
+  return dedent(`# ${data.title}
 
   ## Description
   ${data.description}
@@ -137,7 +137,7 @@ function generateMarkdown(data) {
 
 
   ${dedent(generateLicense(data))}
-`;
+`);
 }
 
 module.exports = generateMarkdown;
