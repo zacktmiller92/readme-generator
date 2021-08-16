@@ -3,6 +3,13 @@
 ## Description
 This project is designed to create professional readmefiles and format them using the command line interface.
 
+## Table Of Contents
+* [Install Instructions](#Install-Instructions)
+* [Usage Instructions](#Usage-Instructions)
+* [Credits](#Credits)
+* [Questions](#Questions)
+* [License](#License)
+
 
 ## Install Instructions
 1. Clone this project

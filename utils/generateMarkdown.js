@@ -94,8 +94,6 @@ const generateLicense = (data) => {
 
 
 function generateMarkdown(data) {
-  generateLicense(data);
-
 
   return `# ${data.title}
 
