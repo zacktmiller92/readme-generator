@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
-const fs = require('fs');
+// const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js')
+const writeToFile = require('./utils/writeToFile.js')
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -39,7 +40,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'tests',
+            name: 'credits',
             message: "Enter your project's credits.",
         },
         // license badges
@@ -47,7 +48,7 @@ const questions = () => {
             type: 'list',
             name: 'licenses',
             message: 'What license do you want to use?',
-            choices: ['Apache', 'GNU', 'MIT']
+            choices: ['Apache 2.0', 'GNU GPL v3', 'MIT']
             // https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
           },
 
@@ -56,6 +57,11 @@ const questions = () => {
             type: 'input',
             name: 'email',
             message: "What is your email address?",
+        },
+        {
+            type: 'input',
+            name: 'fullName',
+            message: "What is your full name?",
         },
         {
             type: 'input',
@@ -69,15 +75,14 @@ const questions = () => {
 };
 
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 function init() {
     questions()
     .then(questions => {
-        console.log(generateMarkdown(questions))
+        return generateMarkdown(questions);
+    })
+    .then(markdown => {
+        return writeToFile('readme.md', markdown);
     })
 };
 
