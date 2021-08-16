@@ -100,6 +100,14 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+  ## Table Of Contents
+  * [Install Instructions](#Install-Instructions)
+  * [Usage Instructions](#Usage-Instructions)
+  * [How To Contribute](#How-To-Contribute)
+  * [Test Guidelines](#Test-Guidelines)
+  * [Credits](#Credits)
+  * [Questions](#Questions)
+  * [License](#License)
 
   ## Install Instructions
   ${data.install}
