@@ -15,7 +15,7 @@ This project is designed to create professional readmefiles and format them usin
 1. Clone this project
 2. Install the latest stable version of Node if you haven't already
 3. Navigate to root directory of project
-4. Run 'node install' to install all required packages
+4. Run 'npm install' to install all required packages
 
 
 ## Usage Instructions
